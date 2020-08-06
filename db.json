@@ -1,0 +1,75 @@
+{
+  "buddys": [
+    {
+      "id": 1,
+      "names": ["Anna", "Anni"]
+    },
+    {
+      "id": 2,
+      "names": ["Max", "Dennis J."]
+    },
+    {
+      "id": 3,
+      "names": ["Dennis W.", "Maxi"]
+    },
+    {
+      "id": 4,
+      "names": ["Karsten", "Caro"]
+    },
+    {
+      "id": 5,
+      "names": ["Nina", "Constantin"]
+    },
+    {
+      "id": 6,
+      "names": ["Deniz", "Martin"]
+    },
+    {
+      "id": 7,
+      "names": ["Sören", "Jan Henrik"]
+    },
+    {
+      "id": 8,
+      "names": ["Jenny", "Iver"]
+    }
+  ],
+
+  "teams": [
+    {
+      "title": "Team 1",
+      "names": ["Martin", "Sören", "Deniz", "Constantin"]
+    },
+    {
+      "title": "Team 2",
+      "names": ["Anni", "Caro", "Karsten", "Nina"]
+    },
+    {
+      "title": "Team 3",
+      "names": ["Dennis W.", "Anna", "Maxi", "Jenny"]
+    },
+    {
+      "title": "Team 4",
+      "names": ["Max", "Dennis J.", "Iver", "Jan Henrik"]
+    }
+  ],
+  
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "energylevels": [
+  ]
+}
