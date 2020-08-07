@@ -25,5 +25,7 @@ server.get('/energylevels', (req, res) => {
 server.post('/energylevels', (req, res) => {
   console.log('working')
   db.energylevels.push(req.body)
+  res.statusCode = 200
+  res.end('Data received')
   console.log(db.energylevels)
 })
