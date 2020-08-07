@@ -1,12 +1,11 @@
 import express from 'express'
 import cors from 'cors'
-import bodyParser from 'body-parser'
 import db from './db.json'
 
 const server = express()
 
 server.use(cors())
-server.use(bodyParser.json());
+server.use(express.json());
 
 const port = process.env.PORT ?? 3000
 
